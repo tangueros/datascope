@@ -1,7 +1,7 @@
 module.exports = {
 //host: '0.0.0.0',
 //port: 8080,
-base: '/datascope/',
+//base: '/datascope/',
 dest: 'docs',
 
 ///////////////////////////////////
