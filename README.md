@@ -1,2 +1,3 @@
-# revistas
-archive page for defunct magazines BA Tango etc
+# datascope
+
+Using Vuepress, we visualise the data in tangodata
