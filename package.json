@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve": "vuepress dev source",
-    "build": "vuepress build source"
+    "serve": "vuepress dev source ",
+    "build": "vuepress build source ",
+    "info": "vuepress info"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
@@ -13,6 +14,7 @@
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.48",
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.48",
     "@vuepress/plugin-pwa": "^1.0.0-alpha.48",
+    "js-yaml-loader": "^1.2.0",
     "node-sass": "^4.12.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
@@ -20,13 +22,18 @@
     "vuepress": "^1.0.0-alpha.48",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-container": "^2.0.1",
+    "vuepress-plugin-dehydrate": "^1.0.2",
     "vuepress-plugin-named-chunks": "^1.0.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fast-glob": "^2.2.7"
+  },
   "unused": {
+    "vuepress-plugin-blog-multidir": "^1.0.4",
     "vuepress-plugin-minimal-analytics": "^0.1.4",
     "vuepress-plugin-alias": "^1.0.0-beta",
     "vue-tabs-component": "^1.5.0",
+    "globby": "^9.2.0",
     "vuepress-plugin-tabs": "^0.2.2"
   }
 }

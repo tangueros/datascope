@@ -1,0 +1,10 @@
+{
+  "sdata": [
+    { "name": "Good",
+      "info": "positive" },
+    { "name": "New York",
+      "info": "positive"     },
+    { "name": "big stupid",
+      "info": "positive"     }
+  ]
+}

@@ -1,26 +1,61 @@
+//const path = require('path');
+
+const { path } = require('@vuepress/shared-utils')
+
+
 module.exports = {
 //host: '0.0.0.0',
 //port: 8080,
 //base: '/datascope/',
 dest: 'docs',
+//theme: 'default',
+//extend: '@vuepress/theme-default',
+// extend: '@vuepress/theme-default',
+temp: '.temp',
 
 ///////////////////////////////////
 // SITE EXTENSIONS`
+/*
+configureWebpack: {
+  resolve: {
+    alias: {
+      '@public': path.join(__dirname, './public')
+    },
+  },
+  loader: [{
+    test: /\.ya?ml$/,
+    //include: path.resolve('data'),
+    loader: 'js-yaml',
+  }],
+configureWebpack: {
+},
+*/
 ///////////////////////////////////
 
 configureWebpack: {
   resolve: {
     alias: {
-//      '@public': path.join(__dirname, './public')
-    }
+      'Data': path.resolve(__dirname, '../../data'),
+      'Bundle': path.resolve(__dirname, '../../bundle')
+    },
+  },
+  module: {
+    rules: [{
+      test: /\.ya?ml$/,
+      use: 'js-yaml-loader',
+    }]
   }
 },
 
 plugins: [
+
   'clean-urls',
   'named-chunks',
   '@vuepress/back-to-top',
   //'@vuepress/medium-zoom',
+  //'vuepress-plugin-blog-multidir',
+  //'blog-multidir',
+  //'dehydrate',
 
   /*:
   'alias',
@@ -56,6 +91,8 @@ plugins: [
     after: '</div>',
   }],
 */
+
+ // require('./my-plugin.js'),
 ],
 
 /*
@@ -132,11 +169,77 @@ themeConfig: {
         { text: 'Github', link: 'https://github.com/tangodata' },
       ],
 
-      sidebar:
-      //'auto'
+      sidebar:  //'auto',
       [
         '/',
-        '/entry',
+
+        //CURRENT
+
+        {title: 'News',
+         children: [
+          '/p/news/rssfeeds',
+          '/p/news/streams',
+          '/p/news/zines',
+          ]
+        },
+
+        {title: 'Find',
+         children: [
+          '/p/find/cities',
+          '/p/find/meetups',
+          '/p/find/mundial',
+          ]
+        },
+
+        {title: 'Tech',
+         children: [
+          '/p/tech/apps',
+          '/p/tech/domains',
+          ]
+        },
+
+        {title: 'Shop',
+         children: [
+          '/p/shop/brands',
+          '/p/shop/books',
+          ]
+        },
+
+        //ARCHIVES
+
+        {title: 'Academy',
+         children: [
+          '/p/academy/lexicons',
+          '/p/academy/pedagogy',
+          ]
+        },
+
+        {title: 'Pedia',
+         children: [
+          '/p/pedia/century',
+          '/p/pedia/milestones',
+          '/p/pedia/biographies',
+          ]
+        },
+
+        {title: 'Arts',
+         children: [
+          '/p/arts/stages',
+          '/p/arts/films',
+          ]
+        },
+
+        {title: 'Club',
+         children: [
+          '/p/club/hives',
+          ]
+        },
+        // corp
+      ]
+
+
+
+
 /*        '/about',
         '/guide/',
           '/guide/getting-started',
@@ -151,7 +254,6 @@ themeConfig: {
           ]
         },
       */
-      ]
 
     }
   }
