@@ -1,5 +1,5 @@
 ---
-permalink: /brands
+permalink: /shop/brands
 ldayout:  CustomCities
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /hives
+permalink: /club/hives
 llayout:  CustomCities
 ---
 

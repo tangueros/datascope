@@ -1,5 +1,5 @@
 ---
-permalink: /apps
+permalink: /tech/apps
 llayout:  CustomCities
 ---
 

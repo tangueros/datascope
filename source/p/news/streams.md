@@ -1,5 +1,5 @@
 ---
-permalink: /streams
+permalink: /news/streams
 llayout:  CustomCities
 ---
 

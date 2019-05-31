@@ -1,5 +1,5 @@
 ---
-permalink: /mundial
+permalink: /find/mundial
 llayout: Test
 ---
 # Mundials

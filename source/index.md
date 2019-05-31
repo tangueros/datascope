@@ -8,19 +8,19 @@ visualize data in tangodata
 
 | | | |
 |:---:|:---:|:---:|
-| **Academy** | **Pedia** | **Tech** |
-| [Lexicons](/lexicons) | [Century](/century) | [Apps](/apps) | |
-| [Pedagogy](/pedagogy) | [Milestones](/milestones) |[Domains](/domains) | |
-| | [Biographies](/biographies)  | | |
+| **Core** | **Knol** | **Tech** |
+| [Lexicons](/core/lexicons) | [Century](/knol/century) | [Apps](/tech/apps) | |
+| [Pedagogy](/core/pedagogy) | [Milestones](/knol/milestones) |[Domains](/tech/domains) | |
+| | [Biographies](/knol/biographies)  | | |
 | | | | |
 | **Find** | **News** | **Arts** |
-| [Cities](/cities) | [Rssfeeds](/rssfeeds) | [Stages](/stages) |
-| [Meetups](/meetups) | [Streams](/streams) | [Films](/films)
-| [Mundial](/mundial) | [Zines](/zines) | |
+| [Cities](/find/cities) | [Rssfeeds](/news/rssfeeds) | [Stages](/arts/stages) |
+| [Meetups](/find/meetups) | [Streams](/news/streams) | [Films](/arts/films)
+| [Mundial](/find/mundial) | [Zines](/news/zines) | |
 | | | |
 | **Shop** | **Club** | **Corp** |
-| [Brands](/brands)  | [Hives](/hives) | |
-| [Books](/books) | | |
+| [Brands](/shop/brands)  | [Hives](/club/hives) | |
+| [Books](/shop/books) | | |
 | | | |
 | **Capture** | **Capture** | **Capture** |
 | [s/Tejas](https://www.tejastango.com) | s/tangoL | s/todo |

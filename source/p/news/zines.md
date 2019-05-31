@@ -1,5 +1,5 @@
 ---
-permalink: /zines
+permalink: /news/zines
 llayout:  CustomCities
 ---
 

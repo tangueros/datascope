@@ -1,5 +1,5 @@
 ---
-permalink: /rssfeeds
+permalink: /news/rssfeeds
 llayout:  CustomCities
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /cities
+permalink: /find/cities
 llayout:  CustomCities
 ---
 

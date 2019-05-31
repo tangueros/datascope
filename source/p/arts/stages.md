@@ -1,5 +1,5 @@
 ---
-permalink: /stages
+permalink: /arts/stages
 llayout:  CustomCities
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /domains
+permalink: /tech/domains
 llayout:  CustomCities
 ---
 

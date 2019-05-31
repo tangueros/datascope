@@ -1,5 +1,5 @@
 ---
-permalink: /books
+permalink: /shop/books
 ldayout:  CustomCities
 ---
 

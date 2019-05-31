@@ -172,6 +172,7 @@ themeConfig: {
       sidebar:  //'auto',
       [
         '/',
+        '/basics',
 
         //CURRENT
 
@@ -205,20 +206,20 @@ themeConfig: {
           ]
         },
 
-        //ARCHIVES
+        //ARCHIVE
 
-        {title: 'Academy',
+        {title: 'Core',
          children: [
-          '/p/academy/lexicons',
-          '/p/academy/pedagogy',
+          '/p/core/lexicons',
+          '/p/core/pedagogy',
           ]
         },
 
-        {title: 'Pedia',
+        {title: 'Knol',
          children: [
-          '/p/pedia/century',
-          '/p/pedia/milestones',
-          '/p/pedia/biographies',
+          '/p/knol/century',
+          '/p/knol/milestones',
+          '/p/knol/biographies',
           ]
         },
 
@@ -235,6 +236,8 @@ themeConfig: {
           ]
         },
         // corp
+
+
       ]
 
 

@@ -1,5 +1,5 @@
 ---
-permalink: /meetups
+permalink: /find/meetups
 llayout: Test
 ---
 # Festivals and Meetings

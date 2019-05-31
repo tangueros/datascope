@@ -1,5 +1,5 @@
 ---
-permalink: /films
+permalink: /arts/films
 llayout:  CustomCities
 ---
 
