@@ -1,6 +1,6 @@
-//const path = require('path');
+const path = require('path');
 
-const { path } = require('@vuepress/shared-utils')
+//const { path } = require('@vuepress/shared-utils')
 
 
 module.exports = {
@@ -176,6 +176,21 @@ themeConfig: {
 
         //CURRENT
 
+        {title: 'Core',
+         children: [
+          '/p/core/lexicons',
+          '/p/core/pedagogy',
+          ]
+        },
+
+        {title: 'Knol',
+         children: [
+          '/p/knol/century',
+          '/p/knol/milestones',
+          '/p/knol/biographies',
+          ]
+        },
+
         {title: 'News',
          children: [
           '/p/news/rssfeeds',
@@ -192,37 +207,6 @@ themeConfig: {
           ]
         },
 
-        {title: 'Tech',
-         children: [
-          '/p/tech/apps',
-          '/p/tech/domains',
-          ]
-        },
-
-        {title: 'Shop',
-         children: [
-          '/p/shop/brands',
-          '/p/shop/books',
-          ]
-        },
-
-        //ARCHIVE
-
-        {title: 'Core',
-         children: [
-          '/p/core/lexicons',
-          '/p/core/pedagogy',
-          ]
-        },
-
-        {title: 'Knol',
-         children: [
-          '/p/knol/century',
-          '/p/knol/milestones',
-          '/p/knol/biographies',
-          ]
-        },
-
         {title: 'Arts',
          children: [
           '/p/arts/stages',
@@ -235,6 +219,21 @@ themeConfig: {
           '/p/club/hives',
           ]
         },
+
+        {title: 'Shop',
+         children: [
+          '/p/shop/brands',
+          '/p/shop/books',
+          ]
+        },
+
+        {title: 'Tech',
+         children: [
+          '/p/tech/apps',
+          '/p/tech/domains',
+          ]
+        },
+
         // corp
 
 
