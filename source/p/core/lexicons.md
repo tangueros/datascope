@@ -5,35 +5,21 @@ ldayout:  CustomCities
 
 # Lexicons
 
-A list of Tango words
-***
-<words/>
+<alphalist
+:items="items"
+keyterm="term"
+keydef="synopsis"
+caption='A list of Tango words'
+/>
 
-***
 
-<filescan/>
-
-
-```
 <script>
-//import gb from 'globby'
-//import gb from 'fast-glob'
-//const gb = require('fast-glob')
-
+import json from 'Bundle/dist/lexicons.json'
 export default {
-  mounted() {
-    const mypath='words/**/*.md'
-    const mycontext='../../bundle/registry-tango-lexicon/'
-    console.log('Before scan')
-
-        console.log('Inside Scan')
-        let files
-        //files = gb.sync(mypath, {cwd: mycontext})
-        console.log('Found file ',files)
-
-        console.log('After Scan')
-  }
-
+  data: function() {
+    return {
+      items: json
+    }
+  },
 }
 </script>
-```

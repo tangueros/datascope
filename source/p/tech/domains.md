@@ -5,16 +5,21 @@ llayout:  CustomCities
 
 # Domains
 
-some new words
+<alphalist
+:items="items"
+keyterm="name"
+keydef="domain"
+caption='A list of Tango domains'
+/>
 
-## Want to know more?
 
-- play a city
-- eat a zone
-
-## And then
-
-- drink a donut
-- cook a beer
-
-So long!
+<script>
+import json from 'Bundle/dist/domains.json'
+export default {
+  data: function() {
+    return {
+      items: json
+    }
+  },
+}
+</script>

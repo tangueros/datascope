@@ -4,16 +4,21 @@ llayout: Test
 ---
 # Festivals and Meetings
 
-Meetups
 
-festivals
+<alphalist
+:items="items"
+keyterm="Event Name"
+keydef="EStartDate"
+caption="List of Tango Events"
+/>
 
-conferences
-
-marathons
-
-championships
-
-encuentros
-
-layout: CustomLayout
+<script>
+import json from 'Bundle/dist/meetups.json'
+export default {
+  data: function() {
+    return {
+      items: json
+    }
+  },
+}
+</script>

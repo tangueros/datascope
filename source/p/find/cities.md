@@ -5,16 +5,20 @@ llayout:  CustomCities
 
 # Cities
 
-some new words
+<alphalist
+:items="items"
+keyterm="shortname"
+keydef="city"
+caption="List of Tango Cities"
+/>
 
-## Want to know more?
-
-- play a city
-- eat a zone
-
-## And then
-
-- drink a donut
-- cook a beer
-
-So long!
+<script>
+import json from 'Bundle/dist/cities.json'
+export default {
+  data: function() {
+    return {
+      items: json
+    }
+  },
+}
+</script>
