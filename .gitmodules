@@ -1,3 +1,3 @@
-[submodule "cache-tangodata"]
+[submodule "bundle"]
 	path = bundle
 	url = https://github.com/tangodata/cache-tangodata
